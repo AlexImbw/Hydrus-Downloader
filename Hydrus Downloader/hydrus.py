@@ -35,5 +35,6 @@ Label(frm, text="---== COLE O LINK AQUI ==---").grid(columnspan=4, row=0)
 chave = Entry(frm, width=50)
 chave.grid(column=0, row=1)
 Button(frm, text="Download", command=onclick).grid(column=0, row=3)
+Label(frm, text="Created by: Alex Santana").grid(column=0, row=5)
 
 root.mainloop()
