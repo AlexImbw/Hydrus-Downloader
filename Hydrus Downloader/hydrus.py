@@ -21,8 +21,7 @@ def onclick(): #função pegar dados da Entry
 # Criação do objeto yt-dlp
     ydl = yt_dlp.YoutubeDL(ydl_opts)
 
-    
-    # Inicia o download do vídeo
+        # Inicia o download do vídeo
     try:
         ydl.download([url])
         print("Download concluído!")
@@ -34,7 +33,9 @@ def onclick(): #função pegar dados da Entry
 Label(frm, text="---== COLE O LINK AQUI ==---").grid(columnspan=4, row=0)
 chave = Entry(frm, width=50)
 chave.grid(column=0, row=1)
-Button(frm, text="Download", command=onclick).grid(column=0, row=3)
-Label(frm, text="Created by: Alex Santana").grid(column=0, row=5)
+Button(frm, text="Download", command=onclick).grid(column=0, row=5)
+selecao_combobox = ttk.Combobox(frm, values=(["Vídeo", "MP3"])).grid(column=0, row=3)
+Label(frm, text="Created by: Alex Santana").grid(column=0, row=7)
+
 
 root.mainloop()
