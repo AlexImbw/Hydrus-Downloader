@@ -1,5 +1,5 @@
 # Hydrus Downloader
- Baixador de vídeos do YouTube
+ _Baixador de vídeos do YouTube_
 
 
  UTILIZE COM RESPONSABILIDADE! ANTES DE QUALQUER COISA AVALIE OS OS DIREITOS AUTORAIS DE QUALQUER VÍDEO QUE VENHA A FAZER O DOWNLOAD. 
