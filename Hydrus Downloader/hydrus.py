@@ -4,11 +4,10 @@ from tkinter import ttk
 import tkinter as tk
 from tkinter.filedialog import asksaveasfilename, askdirectory
 
-
 pasta_local = ("")
 root = Tk()
 root.title("Hydrus Downloader") #Nome da janela
-imagem = tk.PhotoImage(file='hydra.png') #Carrega a imagem no tk
+imagem = tk.PhotoImage(file="hydra.png") #Carrega a imagem no tk
 imagem2 = tk.Label(root, image=imagem).grid(columnspan=4, row=0) #Mostra a imagem no Frame
 frm = ttk.Frame(root, padding=100)
 frm.grid()
@@ -36,4 +35,5 @@ Label(frm, text="---== COLE O LINK AQUI ==---").grid(columnspan=4, row=0)
 chave = Entry(frm, width=50)
 chave.grid(column=0, row=1)
 Button(frm, text="Download", command=onclick).grid(column=0, row=3)
+
 root.mainloop()
