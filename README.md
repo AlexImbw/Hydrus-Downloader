@@ -12,4 +12,4 @@ Para executar basta abrir o arquivo hydrus.py dentro da sua IDE e executar o cod
 
 Criado por: Alex Santana
 
-Hydrus Downloader 1.0.0
+Hydrus Downloader 1.0.1
