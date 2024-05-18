@@ -8,6 +8,8 @@
 
 Para executar basta abrir o arquivo hydrus.py dentro da sua IDE e executar o codigo para abrir a interface grafica. 
 
+OBS.: O pacote .exe também está na pasta de download. Para executar basta dar dois cliques no mesmo e ele vai abrir a interface. É necessário liberar o aplicativo no seu antivirus caso ele seja resonhecido como vírus.
+
 **Os downloads vão para a propria pasta do software.** 
 
 Criado por: Alex Santana
